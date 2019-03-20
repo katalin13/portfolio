@@ -1,17 +1,17 @@
-<nav class="navbar fixed-top navbar-light navbar-expand-lg  bg-light" style="background-color: #33b79d">
-  <div class='container'>
-    <div class="navbar-header">
-      <%= link_to 'Our Planet', root_path, class: 'navbar-brand', id: 'logo' %>
-    </div>
-    <ul class="nav justify-content-center">
-      <li class='nav-item'><%= link_to 'Landscape', landscapes_path, class: 'nav-link' %></li>
-      <li class='nav-item'><%= link_to 'Animals', animals_path, class: 'nav-link' %></li>
-      <li class='nav-item'><%= link_to 'Birds', birds_path, class: 'nav-link' %></li>
-      <li class='nav-item'><%= link_to 'Macro', macros_path, class: 'nav-link' %></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-
+<nav class="nav fixed-top ">
+  <div class="navbar-brand justify-content-left">
+    <%= link_to 'Our Planet', root_path %>
+  </div>
+  <ul class="nav">
+    <li class='nav-item'><%= link_to 'Landscape', landscapes_path, class: 'nav-link' %></li>
+    <li class='nav-item'><%= link_to 'Animals', animals_path, class: 'nav-link' %></li>
+    <li class='nav-item'><%= link_to 'Birds', birds_path, class: 'nav-link' %></li>
+    <li class='nav-item'><%= link_to 'Macro', macros_path, class: 'nav-link' %></li>
+  </ul>
+  <ul class="nav">
+    <li><i class="fa fa-user-plus" aria-hidden="true"></i>
+      <%= link_to 'Sign up', landscapes_path %></li>
+    <li><i class="fa fa-sign-in" aria-hidden="true"></i>
+      <%= link_to 'Login', macros_path %></li>
+  </ul>
 </nav>

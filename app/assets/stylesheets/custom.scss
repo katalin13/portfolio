@@ -13,10 +13,15 @@
   text-transform: uppercase;
 }
 
+.nav {
+  background-color: #63dda6;
+}
+
 .navbar-nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #63dda6;
 }
 
 .nav-item {
@@ -44,6 +49,7 @@
 .jumbotron {
   background-image: asset-url('firework.jpg');
   background-size: cover;
+  width: 100%;
   height: 800px;
   padding: inherit;
 }
@@ -75,6 +81,25 @@
   }
 }
 
+.container h1 {
+  color: #0fa863;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  letter-spacing: -1px;
+}
+
+.rounded {
+  width: 100%;
+}
+
+.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
@@ -86,12 +111,9 @@ footer small {
   float: left;
 }
 
-footer ul {
+
+footer nav {
   float: right;
   list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin: 0 15px 0 15px;
+  color: #189173 !important;
 }

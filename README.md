@@ -1,6 +1,6 @@
 # README
 
-Ruby 2.6.1   +   Rails 5.1.6.2
+Ruby 2.6.1   +   Rails 5.1.6.2   +   Bootstrap 4
 
 A portfolio website that helps him coding and show my other passion - photography.
 
