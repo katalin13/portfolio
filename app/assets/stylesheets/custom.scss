@@ -1,0 +1,97 @@
+
+#logo {
+  float: left;
+  font-size: 2em;
+  color: #a34ed8;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  color: #5158c1;
+  padding: 3px;
+}
+
+.nav-link {
+  display: block;
+  color: #5158c1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  background-color: #adb1ea;
+}
+
+.navbar-right {
+  padding: 5px;
+}
+
+.jumbotron {
+  background-image: asset-url('firework.jpg');
+  background-size: cover;
+  height: 800px;
+  padding: inherit;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 150px;
+  letter-spacing: -1px;
+  font-size: 60px;
+}
+
+.row-thumbnail {
+  background-color: #fff;
+  border-width: thick;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #727270;
+  color: #189173;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin: 0 15px 0 15px;
+}

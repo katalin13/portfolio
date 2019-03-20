@@ -1,0 +1,19 @@
+<h1 align='center'>hi there</h1>
+
+<div class="container">
+ <div class="landscapes">
+
+    <div class="row">
+
+      <% @images.each do |image| %>
+      <div class="col-xs-3 col-lg-3">
+        <div class="thumbnail">
+          <%= image_tag "landscapes/#{ File.basename(image) }", class: 'img-responsive', style: 'height:100%;width:auto' %>
+        </div>
+
+       </div>
+       <% end %>
+     </div>
+
+ </div>
+</div>
