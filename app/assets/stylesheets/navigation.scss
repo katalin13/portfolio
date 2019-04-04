@@ -1,0 +1,78 @@
+.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
+  background: $navbarColor !important;
+  border: none;
+  nav-link {
+    color: white !important;
+  }
+}
+
+nav {
+  .navbar-header {
+    width: 100%;
+    button, .navbar-brand {
+      transition: opacity 0.15s;
+    }
+    button {
+      margin-right: 0;
+    }
+    button:hover, .navbar-brand:hover {
+      opacity: 0.8;
+    }
+    .col-sm-5, .col-sm-7 {
+  padding: 0;
+  }
+  }
+}
+
+// body {
+//  margin-top: 50px;
+// }
+.navbar-right {
+
+
+.menu {
+  margin-right: 10px;
+
+     display: inline;
+
+}
+
+.mobile-menu {
+  nav-item {
+    color: white;
+  }
+  ul {
+    padding: 0px;
+  }
+  nav-link {
+    display: block;
+    padding: 10px 0px 10px 25px !important;
+  }
+  nav-link:hover {
+    background: white !important;
+    color: black !important;
+    nav-item {
+      color: black;
+    }
+  }
+}
+}
+
+.icon-bar {
+  background-color: white !important;
+}
+
+.active nav-link {
+  background: $navbarColor !important;
+  border-bottom: solid 5px white;
+}
+
+.dropdown-toggle, .dropdown-menu {
+  background: $navbarColor !important;
+  border: none;
+}
+
+.dropdown-menu nav-link:hover {
+  color: black !important;
+  background: white !important;
+}

@@ -20,6 +20,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'sassc-rails', '>= 2.1.0'
 
 gem 'font-awesome-sass'
+gem 'octicons', '~> 8.5'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
