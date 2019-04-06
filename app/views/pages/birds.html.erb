@@ -3,18 +3,14 @@
   <h1 class="display-4">Feathers . . .</h1>
 
  <div class="birds">
-
-    <div class="row">
-
-      <% @images.each do |image| %>
+  <div class="row">
+    <% @images.each do |image| %>
       <div class="polaroid">
         <div class="rounded">
           <%= image_tag "birds/#{ File.basename(image) }", class: 'img-responsive rounded', style: 'width:100%' %>
         </div>
-
-       </div>
-       <% end %>
-     </div>
-
+      </div>
+    <% end %>
+  </div>
  </div>
 </div>

@@ -3,18 +3,14 @@
   <h1 class="display-4">Our friends</h1>
 
  <div class="animals">
-
-    <div class="row">
-
-      <% @images.each do |image| %>
+  <div class="row">
+    <% @images.each do |image| %>
       <div class="polaroid">
         <div class="rounded">
           <%= image_tag "animals/#{ File.basename(image) }", class: 'img-responsive rounded', style: 'width:100%' %>
         </div>
-
-       </div>
-       <% end %>
-     </div>
-
+      </div>
+    <% end %>
+  </div>
  </div>
 </div>

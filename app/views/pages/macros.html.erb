@@ -2,19 +2,15 @@
 <div class="container">
   <h1 class="display-4">The amazing micro world!</h1>
 
- <div class="macros">
-
+  <div class="macros">
     <div class="row">
-
       <% @images.each do |image| %>
-
-      <div class="polaroid">
-        <div class="rounded">
+        <div class="polaroid">
+          <div class="rounded">
           <%= image_tag "macros/#{ File.basename(image) }", class: 'img-responsive rounded', style: 'width:100%' %>
+          </div>
         </div>
-
-       </div>
-       <% end %>
-     </div>
-     </div>
+      <% end %>
+    </div>
+  </div>
 </div>
