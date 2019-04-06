@@ -1,78 +1,67 @@
-.navbar-default, .navbar-toggle:focus, .collapsed, button.navbar-toggle {
-  background: $navbarColor !important;
-  border: none;
-  nav-link {
-    color: white !important;
-  }
-}
-
 nav {
-  .navbar-header {
-    width: 100%;
-    button, .navbar-brand {
-      transition: opacity 0.15s;
-    }
-    button {
-      margin-right: 0;
-    }
-    button:hover, .navbar-brand:hover {
-      opacity: 0.8;
-    }
-    .col-sm-5, .col-sm-7 {
-  padding: 0;
-  }
-  }
+  height: 75px;
 }
 
-// body {
-//  margin-top: 50px;
+ .transparent {
+   background-color: transparent !important;
+ }
+
+ @media screen and (max-width: 767px) {
+   .collapse {
+     display: none !important;
+   }
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.navbar-brand {
+    color: #48bf97 !important;
+    margin-left: 10px;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+.navbar-brand:hover {
+    font-size: 1.8em;
+  }
+.navbar-nav {
+     margin: 0 auto !important;
+}
+// .navbar-nav:hover {
+//   font-size: 1.5em;
 // }
-.navbar-right {
+.nav-link {
+  color: #48bf97 !important;
+}
+.nav-link:hover {
+  display: block;
+  background-color: #48bf97;
+  color: #fff !important;
+  border-radius: 45px;
+}
 
+.navbar-toggler {
 
-.menu {
-  margin-right: 10px;
-
-     display: inline;
 
 }
 
-.mobile-menu {
-  nav-item {
-    color: white;
-  }
-  ul {
-    padding: 0px;
-  }
-  nav-link {
-    display: block;
-    padding: 10px 0px 10px 25px !important;
-  }
-  nav-link:hover {
-    background: white !important;
-    color: black !important;
-    nav-item {
-      color: black;
-    }
-  }
-}
-}
-
-.icon-bar {
-  background-color: white !important;
-}
-
-.active nav-link {
-  background: $navbarColor !important;
-  border-bottom: solid 5px white;
-}
-
-.dropdown-toggle, .dropdown-menu {
-  background: $navbarColor !important;
-  border: none;
-}
-
-.dropdown-menu nav-link:hover {
-  color: black !important;
-  background: white !important;
-}
+// .mobile-menu {
+//   nav-item {
+//     color: white;
+//   }
+//   ul {
+//     padding: 0px;
+//   }
+//   nav-link {
+//     display: block;
+//     padding: 10px 0px 10px 25px !important;
+//   }
+//   nav-link:hover {
+//     background: white !important;
+//     color: black !important;
+//     nav-item {
+//       color: black;
+//     }
+//   }
+// }

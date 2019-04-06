@@ -1,49 +1,17 @@
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-      <%= render 'layouts/header' %>
-    <div class="row">
-
-  <!-- Elements visible all the time -->
-  <div class="col-sm-7">
-
-    <%= render 'layouts/header_elements' %>
-  </div><!-- col-sm-7 -->
-
-  <!-- Elements collapses on smaller devices -->
-  <!-- <div class="col-sm-5">
-    < %= render 'layouts/header' %>
-    < %= render 'layouts/header_elements' %>
-  </div><!-- col-sm-5 -->
-
-</div><!-- row -->
-
-
-
-  </div><!-- /.container-fluid -->
+<nav class="navbar transparent justify-content-center navbar-fixed-top navbar-expand-sm">
+  <%= image_tag("logo.png", size:"30x35", :alt => "owl logo", class: "logo") %>
+  <%= link_to "KA's shots", root_path, class:'navbar-brand' %>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <%= link_to 'Landscape', landscapes_path, class: 'nav-link' %>
+      <%= link_to 'Animals', animals_path, class: 'nav-link' %>
+      <%= link_to 'Macro', macros_path, class: 'nav-link' %>
+      <%= link_to 'Birds', birds_path, class: 'nav-link' %>
+    </div>
+  </div>
 </nav>
 
-
-
-
-
-
-<!-- <nav class="nav fixed-top navbar-expand-lg">
-<div class='container'>
-  <div class="navbar-brand">
-    < %= link_to 'Our Planet', root_path, class:'navbar-brand' %>
-  </div>
-  <ul class="nav", align='center'>
-    <li class='nav-item'>< %= link_to 'Landscape', landscapes_path, class: 'nav-link' %></li>
-    <li class='nav-item'>< %= link_to 'Animals', animals_path, class: 'nav-link' %></li>
-    <li class='nav-item'>< %= link_to 'Birds', birds_path, class: 'nav-link' %></li>
-    <li class='nav-item'>< %= link_to 'Macro', macros_path, class: 'nav-link' %></li>
-  </ul>
-  <ul class="nav flex-column", style='float:right'>
-    <li class='nav-item'><i class="fa fa-user-plus" aria-hidden="true"></i>
-       < % = link_to 'Cart', landscapes_path %></li> %>
-     <li class='nav-item'><i class="fa fa-sign-in" aria-hidden="true"></i>
-       < %# < % = link_to 'Checkout', macros_path %></li> %> %>
-  </ul>
-</div>
-</nav> -->
+ <!-- #pull-right ass a class in a container with, for ex elements of the navbar, pulling them to the right -->
