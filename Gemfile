@@ -7,32 +7,33 @@ end
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.6', '>= 5.1.6.2'
-# Use postgresql as the database for Active Record
 
+gem 'rails', '~> 5.2', '>= 5.2.3'
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 1.1', '>= 1.1.4'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 3.12', '>= 3.12.1'
 # Use SCSS for stylesheets
-gem 'bootstrap', '~> 4.3.1'
-gem 'bootstrap-sass'
-gem 'jquery-rails'
-gem 'sass-rails', '~> 5.0'
-gem 'sassc-rails', '>= 2.1.0'
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
+gem 'sassc-rails', '~> 2.1', '>= 2.1.1'
 
 gem 'font-awesome-sass'
 gem 'octicons', '~> 8.5'
 
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '~> 4.1', '>= 4.1.20'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5'
+gem 'turbolinks', '~> 5.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.9', '>= 2.9.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -58,6 +59,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  gem 'pg', '>= 0.18', '< 2.0'
-  gem 'rails_12factor'
+  # gem 'pg', '~> 1.1', '>= 1.1.4'
+  gem 'rails_12factor', '~> 0.0.3'
 end
